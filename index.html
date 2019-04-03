@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <img id="stateFlag" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAA21BMVEX/AxwAD4f/////DiT/AAAAAIQLGIv3+P3/vcVSWqQAAIEAAH4AAIUACYUAEI3/ABr/ABTu8PcuNpSWnMb/AAwABob/9vdqcK//8fP/NED/r7T/9PbY3Oz/g4z/5ehBSp7/1tmssdS0udiEi7//qK7/ztLi5vLS1ulweLT/dn+/xN//xMn/Z3HMz+T/mZ//gYgcKJCMk8L/SFL/3+JbYqj/HS2kqs//W2UkLpH/JzMVHYn/U1z/nKL/kZh4gLYKF4s1Ppf/PkhIU6P/YmttdLRUXKX/b3dgaa1ETqFFupC8AAAQoElEQVR4nO2de1/iOhPHoTZW0/ZpudQrgoCC4mEXEVjEFVHXxff/ik5vufSSptqmcJ4Pv7/OWS00XzOTZDKZlKZ7O9mSDyRbyqG+H9aitGfsZBglhAiUw3qxEZV2KiUg2t8h8rRDxNUOEVc7RFztEHG1Q8TVDhFXO0Rc7RBxtUPE1Q4RV1uKyDTrMqV63TQ39jJbh8gwHSaPT++3F89XZ46uni/+vo8fXVSbALVViAy760yfbq+um0dSSEdHD3dXP59ObUxFv9X2ILL57I2f76J0aFDN6+envYIpbQkip/+8nz0k0CFqnv2tF0lpKxCZDp+TVHz83nTwjymbBb3d5hHZ/vn0OV3/CfSl368FdaWNI7IBfakDUV3paizXC3jDDSMy5deDb/HxdFcEpI0isnsQC1CjPxx2OrXuzbLW7gyG/R4bkmiftEFEhrz3HGNilV7nZtIalQEk0vRRa90d9CrRXz+6mspi33NziEz5VzPKZ7ZcAZeJHngZXXeJVW9qUUont2I70sYQydOzcFv7sxVUoRZ5EyLL/vm8Ngw/eH0qsiNtCJEp34ZsrNdeQRh9izhMsFoLuaajC4EdaTOI6uEu1OtWU/HxBOBi2Qh+wN2pLOplN4JIfr0MtK9xA1UrNSBHOoSToL01f4kytg0gMuTbIKC1Cr/Ex+9K6mEQ0rMgYysekSn/oBtW6YL0FhYUBOuATzozhDAqHJFpBNxQew71mNankw7LM4X6sOs9EYyKRmTK17SXnnzRB0Ugqa0+9XkPhoD1SMGI6iV6ulgD33FCQQG1Rjvt1/wHtmIR1R+poazyR/2+jRHp8IOaAJyMc2dUKCJzShFqtLJ3IU9wTg1tJ6d521qRiEyZsrKOnhehcllTZ5StTXNmVCAi06Q89X1GPx2S2qV89jTfca04REadGu27GYb6WME1+fDrfAO2xSGiZ4zLvAnZjA7Jx1/luhYpDJH8D2nCHzVvQLZUitFtnsNaUYjqp6QBNyIIBfvRe46MCkJED/ddMYRsRhMyrJ3m57ILQiQTV30vipBtazfEZefnjopBJP/F7952CH17cc9jRBYjF7mZWiGIzCmOwjacscz6nCR1Jc16+TajDmb0mtcMsghEBjGzXtX5Iq3V67LXZ7DaZYX4OVMFUAYLvF67NnJ6/SIQ1Z/wn3btrTrgUJoxjE1XDys1Rh/TRzBhTq7DN60M5rmbWgGIzClemqG2w6Uk9atxizRozSSlxehFcDnUmCs7oA1m9serS/RlRzmNagUgkn8HHJHbnKoiSZV1xNh09c02lD7LzqxRr/fGmJjDeUOaOK2A2B3d5dONxCMyT5GvVlroW/SyGyu8B0G70WDX2WztMnsKHEhK/OIFfvSk3r7zE7DCG7ZPuXhs8YiIr6ZcDLx3/2UQsBt1MXD/tcWcErgT6EE0Vqm7K/229/nwD+lGebRAOCLzFb1wH5A/P/KqlRbGZqlLL1Q/YAeS9IXTQ5SPkIUCz7j8saCsDtBX/pOHqYlGZMg4PWYd6DH+9o5tN56xwVHb/z22nSFHo9wHhkO4cs22N/fNFlTRV17mMfCLRkQ6UbBzqAiINNNcJ3uIJzRawuwH+kuM4YJ8mvrh4R7iNpAP/5tDNxKNiHSiauArAFlyNvYhUGt4P2yYNPHWof9bvUPf2CwccCS9zxqhT8tjUBOMyHw991+2HWy5rpNEIWU9p/YwkuyMXmHU3N4HyrjHvJDeR+K079kHNcGIcKhRWYUmO9RqSlKovCpllBjUhnhmKA3nELkht19RfwNrjnayD7J3I7GIDLyz2AmbDx1spjVM3hix5gRn5Vh9I/83o78B4iW/mXmKLRZRHQdB3sJfYFVjEhdtLTnhJDKi26L/+5j+BmuBvNFz5m4kFhHewI+Z60C6faRnrDibR/Am7jH7QRAYCPHO2kMpayuEIjKnqAEfMYhi28qxM3bvC1mytkI/+JXVYQtFJP/0X7MXE+mxRnEtveHu0cJINmjsgyoaJK+yWppIRAbefp3FNFxXYyxNmXM3aeP9fGUVagEe+prTjM0Qicg8RWfLYgZyHa5jMvIH/Ni/vh+HqB/+I5ChL6uliUQkX/gv2Yg2HJRncS0dLviBf3pGhXUf6ad4OPid0dKEIkJhkOi+kDpiHOporHj9yIpFFN0vgMf+jy63F5Hx6M8blbfQzBrQiRwhKcvknBG4iJ0s2H+GUBPI0PeabfYoEFH9l/+KvdDaPZAyFVV7P8HY1EPWmaLBKGRrAH1Lxh1+gYjw+iy4grXgR/zMBmsYG/j3nl0qzMd6h8HH/MimJJ1tL6I7/xX/0K8OtVg/HVDlLX6XDYB24nNBY8ORtcts8VlxiAzZD+vTez4621ACqsXtsqmrBuexxpz6a+gA9dZsKVniEOF4Y9/CXQLotfi2RTSYRyY6JGzPVu+Y2h/Bc9NsMyNxiOrvqLW4sbAaPxrFNjbkWcB+spEh1ciJJIhM+mcmZyQOEfbWeFYHb9i+NkZdevRXRzwjQ+qP0OgA0EI52zJNICIUtUbdQVv2h31bDUe9nsLlNcAxfF1dp6drz6w8Y8Or/etM1VgEIkJr2Dn67H0AgK5b+wtb8/lq9fnWog1PqYSkNFpePwI6fxSkNSu7X6lbPtdsK1lhiAychx4IhOi+LAtomqYeUw07rIbU+mi5j1rzvvQ19b11P/SHtJNMCRACEaHXTYgA6Rqxn55qhaRpvjO677Qd1ShRPJRat9v9M5msP1uOPufzeXXuskWruaNMSxBhiHDEMTG+oZKlSEIOJFQdUef2IfWc1FEhoOXQ9Toujs5myn8QhgjnXbWTEEG8nlU+v5L/CKl1MDtQqaIlSKZVmjhEaBHbTgq1khBz40unZqx9YqELZmQAg8yUsCYOEdofYmXlecIhZt7mUPg5bGkx8TqMCAVnM+0UiUOEjlFH44GBpvruIrJbyxHZP0n4E+CoWqbAozBEOCqbjAj4wfrhVzxR2QmYoeybCftJgBBlml6LR9RNbDyKDS4ZINkJa/6ss5KwZ/JfQbRM7h/+cpyRVASWLPtDe0VJc4r/E0SeS2U01Ko2qoxOgjaBkvYm/yuI7pMRaSuF7bDAhO3KPEurJLl5jChTaHbT7rqsv9jDvrKItzO1xjYkL8+tsZ+Q9rflvQjPiziI3FQgFgcnaZSV+qjDhO7nfzSaGWznoI8RzThzQvDGHM9cI2Q6GzfpM3HZgmfXWzp1xGs03soCKqykIteVM9OwnSlVeIuOgWg7FyAmOgwbSeELSx2wkorcCQFz4qNrPc6H4xN8mZJCxcWL6hJ/4uIK3K8ZiFxvI7F+6ixebhKHS5x/Pd7KeBHeRusBzkE7qzpizBvfPMbMYX8iJacjQT9aeb6dITVDRqV1GQM6xYjxC37aa4+VZqyPOsl+DqDY9eNWIiLh/XD+WFq5MyZHzDFNnyfS1198RNmOgghEdOUjOv5miRlv3p3o8JP7p2+oWfPTBSJCASPuqM8QDogpPG/G+gAUl82WpyZwwxpFZr8aCkIi6aLr730CHtD+bumevlHyk0GZ7jZZ1FEG7tQqXhAFfTN5a6H5RahMyMe3OgEgycMV/TuWhhO7T7Y1v4j46+TjU670qOjiXy0Y/Tn3M3GVlevtzVJDC9nEQ3ieRi//CwtSqSAdLfzTlxEfUcd/+sfWIjJf/fl1UnjZE3XGMa04kTonhR0xzngWXWRSsYmcESt2T/3FV4lJtBH1+BUP8azoJOMZYqGp6cgZJe5Z+w3S7mNZxCuSQBwjvMzPerBRJKL6GDUpxdxPVyecXGOi+zTlwyHKO81aWE3oSaI9tJJNtQaBi3TGxko5Dgq7t5OMyfuCz6OhQyAJBRzoVpXTGNtwlerD8Jwhc1UMoYhI4aJ5qh17XV1zje0+XZExktyVuYCh4LOxqOhMLeVSlnUIBkmZpKxujNfA59lWH+IRodJFqddpGut4sGdkzNMhIeko4CgdZK6mKhaROUbnGlMsQvzGqRPmEYianna1Bz/QM9lrGImu9oBCj19IQoOLTiygSlojK1MHrZrZSxiJRoQry/Jn2FiWGjeyDfa/QBkvaHKoOScYEZka9b5QnBjGIUo31vsfgJx+M48/s+jiPPhalNTeqKxbcec9eLkBNCEcasp6dLgIRIaJkvgr7MzWkKjajJQa6QNzOMc0W9p+QYiobsTLf8CiCvBQUiKVWZjPYzvNoxOJR0TOgsR9SawA6wx1ysfx0eqjXKrwF1C0EHejfjqPra3iVyG9lM4IdNAT2QvzuA0QjsjAYf6U/YA1v06Zmk1OJ2UM6yMVUECVqsKbau+arubQp097pnJmGilok1MF/gIQGTj6KDVSLNX0far410KlDosmHGUgT5OTD/nUBi2mmLNZwhXBU3QEnMMpKc7pWJWKaqcY08hodj7OqSZ4IVXTqQsu+HcT4G1mv8IKIKXj4soghQjh5WtOvrpUWO19cjvBhNdM1beztua/k662/LV/g5eqBFvYLPO7n6AYROYUX3WucNZa4NP9tQpdeR7Xn+VYGljgOEpe9cBLxV1ygdJEHJed2E7PrBpvAYPU/CP+yZZmUWXWslUvCL57QbfJyM/47fsvCYy8YuGdSIBaHTnNjytbRwhRs/KzHG8lKgoRVdRZarCPULknQSs3MbEzAJzulZBpRBO6LuV4/1dh1zaZOHIkSUO2rdmDduMz1px0p3Y8e9JgUaU0jx7zvEWuuMu/6mNya/WQWegK9geQmUT80lZYzwFyK4Ek/cr1vsYCb9mTx6QRvUjtHb8vrOKMDElX14fx67TATm4edcDp9y7wrkb6irRKTElVrzswAbk/Zdxw0aJ2TX7mfJl1oTd+4jNqjm5yu2lPh4dUXZofeV/3Xey9sQFGM/Vr585ZCpZAzPcSQveli719OHAJeq+ax926cETXpcmYtBf7zsUiMuS/R6Q9SsochgQBeEzHKC9y70OFI3IYnVNNGlazeSR13qE+LXdP7arwy+Ltsf+EblWWq76h2g3UD8vl8pjoCxeOqFSnb7J21vTwWz1Jh/A4kCAh4hZ0RxtAVDKNM7ppUv9Y/zIkHVqHwby/u7zvrkbaBKKSKV8chSBpSffnxQAC61Bi5A8535uriTaCyHbajw/BFjZmIzUlJR2q5ftQDlLzSYSj9rQZRE5H+hHsSPbothxByEk/1oHtuP4MwkUez+qCjMzRphDZHWl8GWqoVBnetOyZDuOsrIMHrP4MIklsD+/CjMzRxhDZI5t8cRJuraT0B5ORpjpF9jRcAxIApyafVj3sDGOKhD6XxBmZow0isjtS6Spsbb7NtWfdt9VIc0o7WuVR9e2+1o5Yl29jU7GANovI8UinZ/GQ3LfyxfwF6ehgLNTGXG0WkQNpzOhJfB0dPMmZU4b52jSiklGXX39HfVIKnb0WAWgLEJWcniT/vT7nEQnq+tYUb2KetgGR47jrpxeXafvS+eXzqynaSRNtByInbVSWXy8O+JRO7p7Hdgcq8NW2BVHJo1T/dXHQZOJpHjz/KsmF8iltFSJHtvO2OY1vf59dXzabzaNzWyfNh8vrsx+3Y9n5WfHvtGWIHBkep9L08fHU0ePj1J6Jy/V6HlcJf0NbiMiTYRgmkrEhOJ62FtH2aIeIqx0irnaIuNoh4mqHiKsdIq52iLjaIeJqh4irZEQ72UsfNqKX0nRvJ1sIkb4f1uJfFt7Hwo0LgSYAAAAASUVORK5CYII=" alt="TN Flag">
+    </header>
+    <!-- Article about Representative -->
+    <article id="representative">
+        <!-- Basic Info -->
+        <section id="representative__info">
+            <!-- Photo -->
+            <p id="clickMsg">(Click Photo to Make Blinky)</p>
+            <img id="representative__photo" class="photo" src="https://www.govtrack.us/static/legislator-photos/400081-100px.jpeg" alt="Photo of Jim Cooper">
+            <!-- Name -->
+            <div id="representative__name">
+                <h3>Name of Representative</h3>
+                <p>Jim Cooper</p>
+            </div>
+            <!-- District -->
+            <div id="representative__district">
+                <h3>District Information</h3>
+                <p>Representative for Tennessee's 5th congressional district</p>
+            </div>
+            <!-- Affiliation -->
+            <div id="representative__affiliation">
+                <h3>Political Affiliation</h3>
+                <p>Democrat</p>
+            </div>
+        
+        </section>
+        <!-- Committee Info -->
+        <section id="representative__committees">
+                <h3>Committees Served On</h3>
+                <ul>
+                    <li>House Committee on Armed Services</li>
+                    <li>House Committee on the Budget</li>
+                    <li>House Committee on Oversight and Reform</li>
+                </ul>
+        </section>
+
+        <!-- Legislation Info -->
+        <section id="representative__legislation">
+            <h3>Legislation Enacted</h3>
+
+            <ul>
+                <li><a href="https://www.govtrack.us/congress/bills/112/hr482">H.R. 482 (112th): Water Heater Rating Improvement Act of 2011</a></li>
+                <li><a href="https://www.govtrack.us/congress/bills/110/hr928">H.R. 928 (110th): Inspector General Reform Act of 2008</a></li>
+                <li><a href="https://www.govtrack.us/congress/bills/103/hjres297">H.J.Res. 297 (103rd): To designate 1994 as “The Year of Gospel Music”.</a></li>
+            </ul> 
+        </section>
+    </article>
+    <script src="day3.js"></script>
+</body>
+</html>
